@@ -1,3 +1,103 @@
 @media screen and (min-width:1024px) {
-    
+    .header{
+        border-style: solid;
+        width: 95vw;
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .logo{
+        border-style: solid;
+        height: 100%;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #logoimg{
+
+        height: 80%;
+        width: 45%;
+        
+        
+    }
+    .kategorija
+    {
+        height: 100%;
+        width: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icons{ 
+        height: 100%;
+        width: 15%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-style: solid;
+
+    }
+    #shopkart{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        height: 50%;
+        width: 50%;
+    }
+    #shopkart > img{
+        padding-left: 15%;
+        height: 90%;
+        width: 90%;
+    }
+    #povecalo{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        height: 50%;
+        width: 50%;
+    }
+    #povecalo > img{
+        padding-left: 15%;
+        height: 90%;
+        width: 90%;
+    }
+    .tijelo{
+        height: 100vh;
+        width: 95vw;
+        display: flex;
+        flex-direction: row;
+        flex-flow: row;
+        flex-wrap: wrap;
+    }
+    .kategorije{
+        margin: 1%;
+        order: -1;
+        height: 60%;
+        width: 15%;
+        border-style: solid;
+    }
+    .slika{
+        border-style: solid;
+        margin: 1%;
+        order: 0;
+        height: 50%;
+        width: 80%;
+    }
+
+    .kontakt{
+        border-style: solid;
+        margin: 1%;
+        order: 1;
+        height: 35%;
+        width: 15%;
+    }
+
+    .proizvodi{
+        order: 2;
+        border-style: solid;
+        margin: 1%;
+    }
 }
