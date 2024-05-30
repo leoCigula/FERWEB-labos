@@ -8,7 +8,7 @@
         flex-wrap: nowrap;
     }
     .logo{
-        border-style: solid;
+        border-right: solid;
         height: 100%;
         width: 20%;
         display: flex;
@@ -37,10 +37,11 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        border-style: solid;
+        border-left: solid ;
 
     }
     #shopkart{
+        position: relative;
         display: flex;
         align-items: center;
         justify-items: center;
@@ -54,6 +55,7 @@
     }
     #povecalo{
         display: flex;
+        
         align-items: center;
         justify-items: center;
         height: 50%;
@@ -76,7 +78,7 @@
         margin: 1%;
         order: -1;
         height: 60%;
-        width: 15%;
+        width: 12.5%;
         border-style: solid;
     }
     .slika{
@@ -92,12 +94,34 @@
         margin: 1%;
         order: 1;
         height: 35%;
-        width: 15%;
+        width: 12.5%;
     }
 
     .proizvodi{
         order: 2;
-        border-style: solid;
         margin: 1%;
+        border-style: solid;
+        width: 80%;
+        height: 50%;
+        transform: translateY(-20%);
+        
+    }
+
+    .numOfItems{
+        display: none;
+        position: absolute;
+        bottom: -5px;
+        right: -15px;
+        background-color: lightcoral;
+        border-color: red;
+        border: solid red;
+        border-radius: 50%;
+        padding: 0px 12px;
+        opacity: 90%;
+    }
+    #num{
+        font-weight: bold;
+        opacity: 100%;
+        font-size: 11px;
     }
 }

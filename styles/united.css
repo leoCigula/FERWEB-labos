@@ -2,7 +2,6 @@ html{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border-style: dotted;
     flex-flow: column;
     align-items: center;
 }
