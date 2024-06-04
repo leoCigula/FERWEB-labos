@@ -85,6 +85,25 @@
         border-style: solid;
 
     }
+    .bannerText{
+        order: 0;
+        width: 90%;
+        height: 10%;
+    }
+    #slikaD{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: 1;
+        width: 90%;
+        height: 80%;
+    }
+
+    #slikaD>img{
+        width: 75%;
+        height: 100%;
+    }
+
 
     .kategorije{
         order:0;

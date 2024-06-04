@@ -1,0 +1,45 @@
+html{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartHeader{
+    border-style: solid;
+    height: 50vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.cartBody{
+    border-style: solid;
+    height: 70vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    border-style: solid;
+   width: 30%;
+    height: 90%;
+}
+#banner{
+    border-style: solid;
+    width: 60%;
+    margin-left: 2.5%;
+    height: 90%;
+}
+
+#logo,#banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo>img,#banner>img{
+    height: 80%;
+    width: 80%;
+}
