@@ -4,6 +4,8 @@ html{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient( #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    background-attachment: fixed; /*edit*/
 }
 
 .cartHeader{

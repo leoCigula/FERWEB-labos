@@ -127,11 +127,27 @@
         order: 1;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         width: 50%;
         height: 65%;
         border-style: solid;
-        
-
+        justify-content: center;
+        align-items: center;
     }
 
+    .proizvod{
+        height: 30%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+        margin: 3%;
+    }
+
+    .proizvod > img{
+        height: 70%;
+    }
 }
