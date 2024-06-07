@@ -30,23 +30,23 @@ const data = {
             "products":[
                 {
                     "name":"Plavi set",
-                    "image":"images/lego/blu.jpg"
+                    "image":"images/lego/blu.jpeg"
                 },
                 {
                     "name":"Zeleni set",
-                    "image":"images/lego/green.jpg"
+                    "image":"images/lego/green.jpeg"
                 },
                 {
                     "name":"Munjeviti",
-                    "image":"images/lego/light.jpg"
+                    "image":"images/lego/light.jpeg"
                 },
                 {
                     "name":"Sivi set",
-                    "image":"images/lego/sivi.jpg"
+                    "image":"images/lego/sivi.jpeg"
                 },
                 {
                     "name":"Krilati",
-                    "image":"images/lego/winged.jpeg"
+                    "image":"images/lego/wings.jpeg"
                 }
             ]
         },
@@ -72,7 +72,7 @@ const data = {
                 },
                 {
                     "name":"Wired Buds",
-                    "images": "images/slusalice/wiredBuds.jpg"
+                    "image": "images/slusalice/wiredBuds.jpg"
                 }
             ]
         },
@@ -90,15 +90,15 @@ const data = {
                 },
                 {
                     "name":"Kuriboh",
-                    "image":"images/plushies/kuriboh.jpg"
+                    "image":"images/plushie/kuriboh.jpg"
                 },
                 {
                     "name":"Sibirski Plavac",
-                    "image":"images/plushies/plavac.jpg"
+                    "image":"images/plushie/plavac.jpg"
                 },
                 {
                     "name":"Slifer",
-                    "image":"images/plushies/slifer.jpg"
+                    "image":"images/plushie/slifer.jpg"
                 }
             ]
         },
@@ -243,11 +243,11 @@ const data = {
                 },
                 {
                     "name":"Tipkovnica Fury",
-                    "image":"images/tipkovnice/bijes.jpg"
+                    "image":"images/tipkovnice/bijes.jpeg"
                 },
                 {
                     "name":"CK104 tipkovnica",
-                    "image":"images/tipkovnice/metalna.jpg"
+                    "image":"images/tipkovnice/metalna.jpeg"
                 },
                 {
                     "name":"Plava tipkovnica",
