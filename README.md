@@ -1,3 +1,3 @@
 # Labosi 1 i 2 iz WEBA
-prvi napola
+## Labos 1 gotov
 drugi ni zapocet
